@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "matprov": "https://kumagallium.github.io/matprov-context/releases/v1/context.jsonld#",
+    "xsd":   "http://www.w3.org/2001/XMLSchema#",
+
+    "matprov:temperature":         { "@type": "xsd:string" },
+    "matprov:temperature_start":   { "@type": "xsd:string" },
+    "matprov:temperature_end":     { "@type": "xsd:string" },
+    "matprov:temperature_rate":    { "@type": "xsd:string" },
+
+    "matprov:duration":            { "@type": "xsd:string" },
+
+    "matprov:pressure":            { "@type": "xsd:string" },
+    "matprov:pressure_start":      { "@type": "xsd:string" },
+    "matprov:pressure_end":        { "@type": "xsd:string" },
+    "matprov:pressure_rate":       { "@type": "xsd:string" },
+
+    "matprov:mass":                { "@type": "xsd:string" },
+    "matprov:mass_start":          { "@type": "xsd:string" },
+    "matprov:mass_end":            { "@type": "xsd:string" },
+    "matprov:mass_rate":           { "@type": "xsd:string" },
+
+    "matprov:length":              { "@type": "xsd:string" },
+    "matprov:length_start":        { "@type": "xsd:string" },
+    "matprov:length_end":          { "@type": "xsd:string" },
+    "matprov:length_rate":         { "@type": "xsd:string" },
+    "matprov:length_width":        { "@type": "xsd:string" },
+    "matprov:length_height":       { "@type": "xsd:string" },
+    "matprov:length_thickness":    { "@type": "xsd:string" },
+    "matprov:length_diameter":     { "@type": "xsd:string" },
+
+    "matprov:purity":              { "@type": "xsd:string" },
+    "matprov:purity_start":        { "@type": "xsd:string" },
+    "matprov:purity_end":          { "@type": "xsd:string" },
+    "matprov:purity_rate":         { "@type": "xsd:string" },
+
+    "matprov:concentration":       { "@type": "xsd:string" },
+    "matprov:concentration_start": { "@type": "xsd:string" },
+    "matprov:concentration_end":   { "@type": "xsd:string" },
+    "matprov:concentration_rate":  { "@type": "xsd:string" },
+
+    "matprov:rotation":            { "@type": "xsd:string" },
+    "matprov:rotation_start":      { "@type": "xsd:string" },
+    "matprov:rotation_end":        { "@type": "xsd:string" },
+    "matprov:rotation_rate":       { "@type": "xsd:string" },
+
+    "matprov:atmosphere":          { "@type": "xsd:string" },
+    "matprov:atmosphere_start":    { "@type": "xsd:string" },
+    "matprov:atmosphere_end":      { "@type": "xsd:string" },
+    "matprov:atmosphere_rate":     { "@type": "xsd:string" },
+
+    "matprov:form":                { "@type": "xsd:string" },
+    "matprov:form_start":          { "@type": "xsd:string" },
+    "matprov:form_end":            { "@type": "xsd:string" },
+    "matprov:form_rate":           { "@type": "xsd:string" }
+  }
+}
