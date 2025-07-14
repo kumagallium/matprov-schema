@@ -1,6 +1,6 @@
 {
   "@context": {
-    "matprov": "https://kumagallium.github.io/matprov-context/releases/v1/context.jsonld#",
+    "matprov": "https://kumagallium.github.io/matprov-schema/releases/1.0/context.jsonld#",
     "xsd":   "http://www.w3.org/2001/XMLSchema#",
 
     "matprov:temperature":         { "@type": "xsd:string" },
