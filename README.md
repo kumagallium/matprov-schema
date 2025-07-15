@@ -10,10 +10,11 @@ Include the context in your JSON-LD document:
 ```json
 {
   "@context": [
-    "https://kumagallium.github.io/matprov-context/context.jsonld",
-    "http://www.w3.org/ns/prov#"
+	  {"@vocab": "http://www.w3.org/ns/prov#"},
+    "https://openprovenance.org/prov-jsonld/context.jsonld",
+    "https://kumagallium.github.io/matprov-schema/context.jsonld"
   ],
-  ...
+  "@graph": [ /* … */ ]
 }
 ```
 
